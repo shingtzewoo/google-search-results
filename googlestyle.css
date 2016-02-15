@@ -1,0 +1,112 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+#imgcontainer {
+  top: 14px;
+  left: 12px;
+  z-index: 1;
+  display: inline-block;
+  position: absolute;
+  background-color: #f2f2f2;
+  background: url(http://dc736.4shared.com/img/Y2lm5PYece/s7/151f2b7d280/nav_logo242) no-repeat;
+  background-position: 0% 106.5%;
+  height: 59px;
+  width: 100px;
+}
+#button {
+  height: 41.50px;
+  width: 40px;
+  background-color: #4285f4;
+  position: absolute;
+  left: 673px;
+  top: 7.5px;
+  border-radius: 0px 2px 2px 0px;
+  color: transparent;
+  border: 0px;
+}
+#detective {
+  background: url(http://dc736.4shared.com/img/Y2lm5PYece/s7/151f2b7d280/nav_logo242) no-repeat;
+  background-position: -3% 33%;
+  background-size: 237px 437px;
+  color: transparent;
+  height: 25px;
+  width: 33px;
+  left: 2px;
+  top: 8px;
+  position: absolute;
+}
+#searchbar {
+  width: 550px;
+  height: 35px;
+  display: inline-block;
+  top: 8px;
+  left: 120px;
+  position: absolute;
+  line-height: 26px;
+  font: 16px arial, sans-serif;
+}
+p {
+  font-size: 13.5px;
+  font-family: sans-serif;
+  position: absolute;
+  color: #757575;
+  top: 9px;
+  right: 179px;
+
+}
+p:hover {
+  text-decoration: underline;
+}
+#topbar {
+  top: 0px;
+  display: inline-block;
+  position: relative;
+  width: 100%;
+  height: 59px;
+  background-color: #f2f2f2;
+  border-bottom: 1px solid #e5e5e5;
+}
+#block {
+  background: url(http://ssl.gstatic.com/gb/images/i1_71651352.png) no-repeat;
+  background-position: 100% 45%;
+  height: 45px;
+  width: 27px;
+  display: inline block;
+  position: absolute;
+  top: 8px;
+  right: 135px;
+  opacity: 0.4;
+}
+#block:hover{
+  opacity: 1;
+}
+#profile {
+  position: absolute;
+  top: 12px;
+  right: 35px;
+  display: inline-block;
+  border-radius: 50%;
+  float: right;
+}
+#alarm {
+  position: absolute;
+  top: 18px;
+  right: 90px;
+  display: inline-block;
+  background: url(http://ssl.gstatic.com/gb/images/i1_71651352.png) no-repeat;
+  background-position: -3% 63.5%;
+  height: 23px;
+  width: 23px;
+  background-color: black;
+  border-radius: 50%;
+  background-size: 200px auto;
+  opacity: 0.5;
+}
+#alarm:hover {
+  opacity:1;
+}
+
+
+
+
