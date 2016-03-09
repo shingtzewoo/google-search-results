@@ -1,6 +1,7 @@
 body {
   padding: 0;
   margin: 0;
+  background-color: white;
 }
 #imgcontainer {
   top: 14px;
@@ -26,14 +27,11 @@ body {
   border: 0px;
 }
 #detective {
-  background: url(http://dc736.4shared.com/img/Y2lm5PYece/s7/151f2b7d280/nav_logo242) no-repeat;
-  background-position: -3% 33%;
-  background-size: 237px 437px;
-  color: transparent;
+  background: url(search.png) no-repeat;
   height: 25px;
-  width: 33px;
-  left: 2px;
-  top: 8px;
+  width: 20px;
+  left: 11px;
+  top: 11px;
   position: absolute;
 }
 #searchbar {
@@ -53,10 +51,6 @@ p {
   color: #757575;
   top: 9px;
   right: 179px;
-
-}
-p:hover {
-  text-decoration: underline;
 }
 #topbar {
   top: 0px;
@@ -106,7 +100,194 @@ p:hover {
 #alarm:hover {
   opacity:1;
 }
+#secondbar {
+  display: inline-block;
+  position: relative;
+  width: 100%;
+  height: 59px;
+  border-bottom: 1px solid #ebebeb;
+}
+.l-list {
+  display: inline;
+  padding: 10px;
+  font-size: 14px;
+  font-family: Arial, sans-serif;
+}
+ul {
+  list-style-type: none;
+}
+li a {
+  text-decoration: none;
+  color: #777;
+}
+.o:active {
+  color: #4285f4;
+  border-bottom: 3px solid #4285f4;
+  padding-bottom: 24px;
+}
+#ul {
+  left: 85px;
+  position: absolute;
+}
+.o:hover {
+  color: black;
+}
+#searchtool:hover {
+  border: 1px solid #e5e5e5;
+  background-color: #f2f2f2;
+  padding: 5px;
+  border-radius: 2px;
+}
+.sidebuttons {
+  display: inline-block;
+  height: 30px;
+  width: 40px;
+  position: relative;
+  background-color: #f2f2f2;
+  border: 1px solid #e5e5e5;
+  border-radius: 2px;
+}
+#personbutton {
+  right: -1060px;
+  top: 12px;
+}
+#worldbutton {
+  right: -1055px;
+  top: 12px;
+}
+#cogbutton {
+  float: right;
+  top: 12px;
+  left: -40px;
+  width: 70px;
+}
 
+#person {
+  background: url(http://dc736.4shared.com/img/Y2lm5PYece/s7/151f2b7d280/nav_logo242) no-repeat;
+  background-position: 9% 83%;
+  height: 14px;
+  width: 14px;
+  top: 7px;
+  left: 12px;
+  position: absolute;
+}
 
+#world {
+  background: url(http://dc736.4shared.com/img/Y2lm5PYece/s7/151f2b7d280/nav_logo242) no-repeat;
+  background-position: 19.5% 82.8%;
+  height: 14px;
+  width: 14px;
+  left: 12px;
+  top: 7px;
+  position: absolute;
+}
 
+#cog {
+  background: url(http://dc736.4shared.com/img/Y2lm5PYece/s7/151f2b7d280/nav_logo242) no-repeat;
+  background-position: 28% 65.8%;
+  height: 20px;
+  width: 20px;
+  left: 25px;
+  top: 5px;
+  position: absolute;
+}
+#speed {
+  display: block;
+  height: 43px;
+  width: 1160px;
+  font-family: arial, sans-serif;
+  font-size: small;
+  color: #777;
+  position: relative;
+  right: 610px;
+}
+.results {
+  display: block;
+  position: relative;
+  height: 72px;
+  width: 512px;
+  right: -135px;
+}
+h2 a {
+  text-decoration: none;
+  font-weight: normal;
+  font-size: 18px;
+  font-family: arial, sans-serif;
+  color: #1a0dab;
+}
+h2 a:hover {
+  text-decoration: underline;
+}
+.results p {
+  width: 512px;
+  position: absolute;
+  right: 0;
+  padding-top: 3px;
+}
+.firstline {
+  color: #006621;
+}
+#relatedsearch {
+  width: 528px;
+  height: 142px;
+  display: block;
+  position: relative;
+  top: 30px;
+  right: -135px;
+  border-top: 1px solid #f2f2f2;
+  border-bottom: 1px solid #f2f2f2;
+  padding-bottom: 25px;
+}
+#relatedsearch h3 {
+  color: #808080;
+  font-family: Arial, sans-serif;
+  font-weight: normal;
+}
+.link {
+  float: left;
+  clear: left;
+  padding-bottom: 7px;
+  text-decoration: none;
+  color: #1a0dab;
+  font-size: 15px;
+  top: -10px;
+}
+.link:hover {
+  text-decoration: underline;
+}
+#googlepages {
+  width: 528px;
+  height: 60px;
+  position: relative;
+  right: -135px;
+  display: block;
+  bottom: -80px;
+}
+.bold {
+  font-weight: bold;
+}
+#pagescontainer {
+   background: url(https://www.google.ca/images/nav_logo242.png) no-repeat;
+   background-position: 100% 0%;
+   height: 40px;
+   width: 40px;
+}
+table {
+  position: absolute;
+  width: 100%;
+  border-spacing: 0px;
+  border-collapse: collapse;
+}
+.1strow {
+  height: 40px;
+  width: 40px;
+  padding: 0;
+  margin: 0;
+}
+table td {
+  height: 40px;
+  width: 0px;
+  padding: 0;
+  margin: 0;
+}
 
