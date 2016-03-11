@@ -66,7 +66,7 @@ p {
   background-position: 100% 45%;
   height: 45px;
   width: 27px;
-  display: inline block;
+  display: inline-block;
   position: absolute;
   top: 8px;
   right: 135px;
@@ -259,35 +259,71 @@ h2 a:hover {
   width: 528px;
   height: 60px;
   position: relative;
-  right: -135px;
+  right: -100px;
   display: block;
   bottom: -80px;
 }
 .bold {
   font-weight: bold;
 }
-#pagescontainer {
-   background: url(https://www.google.ca/images/nav_logo242.png) no-repeat;
-   background-position: 100% 0%;
-   height: 40px;
-   width: 40px;
-}
 table {
   position: absolute;
   width: 100%;
-  border-spacing: 0px;
-  border-collapse: collapse;
+  right: -135px;
+  top: 20px;
 }
-.1strow {
-  height: 40px;
-  width: 40px;
-  padding: 0;
+tr td {
+  padding: 1px;
   margin: 0;
+  height: 56px;
+  position: relative;
+  height: 56px;
+  width: 18px;
+  display: inline-block;
+  text-align: center;
 }
-table td {
+#G {
+   background: url(https://www.google.ca/images/nav_logo242.png) no-repeat;
+   background-position: 17% 0%;
+   height: 30px;
+   width: 52px;
+   display: inline-block;
+   position: absolute;
+   top: -40px;
+   left: -31px;
+}
+.O {
+  background: url(https://www.google.ca/images/nav_logo242.png) no-repeat;
+  background-position: 50% 0%;
+  height: 30px;
+  width: 20px;
+  display: inline-block;
+  position: absolute;
+  top: -40px;
+  left: 1px;
+}
+#gle {
+  background: url(https://www.google.ca/images/nav_logo242.png) no-repeat;
+  background-position: 100% 0%;
   height: 40px;
-  width: 0px;
-  padding: 0;
-  margin: 0;
+  width: 73px;
+  display: inline-block;
+  position: absolute;
+  top: -40px;
+  left: 1px;
 }
-
+#next {
+  right: -43px;
+  display: inline-block;
+  width: 10px;
+  height: 5px;
+  position: absolute;
+}
+td a {
+  font-weight: normal;
+  color: #4285f4;
+  text-decoration: none;
+}
+td a:hover {
+  text-decoration: underline;
+}
